@@ -1,0 +1,23 @@
+{
+    "name": "crisnao2/utils",
+    "description": "Utilities Classes",
+    "keywords": ["utils", "currencies", "formatted", "conversion"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristiano Soares",
+            "email": "crisnao2@yahoo.com.br",
+            "homepage": "http://www.comerciobr.com/"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6"
+    },
+	"autoload": {
+		"psr-4": {
+			"Crisnao2\\Utils\\": "/src"
+		}
+	}
+}
